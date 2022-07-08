@@ -1,3 +1,6 @@
 [submodule "go_web/GoWeb_ToDoList"]
 	path = go_web/GoWeb_ToDoList
 	url = https://github.com/mao888/GoWeb_ToDoList.git
+[submodule "bluebell"]
+	path = bluebell
+	url = git@github.com:mao888/bluebell.git
