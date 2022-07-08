@@ -26,4 +26,5 @@ func main() {
 	fmt.Println(f1(7), f2(8)) // 14  6
 
 	fmt.Println("dd")
+	fmt.Println("cc")
 }
