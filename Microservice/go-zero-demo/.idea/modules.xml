@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Microservice/go-zero-demo/.idea/go-zero-demo.iml" filepath="$PROJECT_DIR$/../Microservice/go-zero-demo/.idea/go-zero-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../.idea/goworkspace.iml" filepath="$PROJECT_DIR$/../.idea/goworkspace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Microservice/zero-demo/.idea/zero-demo.iml" filepath="$PROJECT_DIR$/../Microservice/zero-demo/.idea/zero-demo.iml" />
+    </modules>
+  </component>
+</project>

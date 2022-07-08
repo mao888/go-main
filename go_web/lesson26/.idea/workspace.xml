@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9e5b963a-83af-4f42-a657-73a4276069fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bubble/main.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson25/bubble/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson25/bubble/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bubble/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/bubble/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bubble/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/bubble/main.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="D:\Program Files\Go_env" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="24AhHyD8fUui1jZfKIzFi39i66t" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lesson27" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e5b963a-83af-4f42-a657-73a4276069fd" name="Default Changelist" comment="" />
+      <created>1643079214335</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643079214335</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <environment>
+      <map>
+        <entry key="GOPROXY" value="https://goproxy.cn" />
+      </map>
+    </environment>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2672" y="373" key="#Go_Modules" timestamp="1643079248015">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2672" y="373" key="#Go_Modules/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1643079248015" />
+    <state x="2767" y="399" key="EnvironmentVariablesDialog" timestamp="1643079247396">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2767" y="399" key="EnvironmentVariablesDialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1643079247396" />
+    <state x="2660" y="295" key="FileChooserDialogImpl" timestamp="1643098612828">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2660" y="295" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1643098612828" />
+  </component>
+</project>
