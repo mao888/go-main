@@ -1,11 +1,11 @@
 /**
     @author:Hasee
-    @data:2022/3/18
+    @data:2022/7/3
     @note:
 **/
 package main
 
 func main() {
-	select {
-	}
+	//n, e := fmt.Println()
+
 }
