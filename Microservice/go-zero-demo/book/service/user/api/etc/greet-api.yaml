@@ -1,0 +1,12 @@
+Name: greet-api
+Host: 0.0.0.0
+Port: 8888
+Mysql:
+  DataSource: root:hcx.10428376@tcp(localhost:3306)/go_zero_demo?charset=utf8mb4&parseTime=true&loc=Asia%2FShanghai
+CacheRedis:
+  - Host: localhost:6379
+    Pass:
+    Type: node
+Auth:
+  AccessSecret: 95519300911105
+  AccessExpire: 24*60*60*365

@@ -1,0 +1,19 @@
+type (
+	LoginReq {
+		Username string `json:"username"`
+		Password string `json:"password"`
+	}
+	LoginReply {
+		Id           int64  `json:"id"`
+		Name         string `json:"name"`   // 学号
+		Gender       string `json:"gender"` // 男｜女｜未公开
+		AccessToken  string `json:"accessToken"`
+		AccessExpire int64  `json:"accessExpire"`
+		RefreshAfter int64  `json:"refreshAfter"`
+	}
+)
+
+service greet-api {
+	@handler login
+	post /user/login (LoginReq) returns (LoginReply)
+}
