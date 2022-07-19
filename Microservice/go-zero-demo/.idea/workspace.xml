@@ -5,45 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c64727c-82c1-440e-bda4-1dcc4748fdca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/book/service/search/api/internal/handler/pinghandler.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/service/search/api/internal/handler/routes.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/service/search/api/internal/handler/searchhandler.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/service/search/api/internal/logic/searchlogic.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/service/search/api/internal/svc/servicecontext.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/service/search/api/search.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/service/user/rpc/default.etcd/member/snap/db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/service/user/rpc/default.etcd/member/wal/0.tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/service/user/rpc/default.etcd/member/wal/0000000000000000-0000000000000000.wal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/service/user/rpc/etc/user.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/service/user/rpc/internal/config/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/service/user/rpc/internal/logic/getuserlogic.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/service/user/rpc/internal/server/userserver.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/service/user/rpc/internal/svc/servicecontext.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/service/user/rpc/types/user/user.pb.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/service/user/rpc/types/user/user_grpc.pb.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/service/user/rpc/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/service/user/rpc/user/user.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/go-zero-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/go-zero-demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/book/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/book/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/service/search/cmd/api/etc/search-api.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/book/service/search/api/etc/search-api.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/service/search/cmd/api/internal/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/book/service/search/api/internal/config/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/service/search/cmd/api/internal/handler/pinghandler.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/service/search/cmd/api/internal/handler/routes.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/service/search/cmd/api/internal/handler/searchhandler.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/service/search/cmd/api/internal/logic/pinglogic.go" beforeDir="false" afterPath="$PROJECT_DIR$/book/service/search/api/internal/logic/pinglogic.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/service/search/cmd/api/internal/logic/searchlogic.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/service/search/cmd/api/internal/middleware/examplemiddleware.go" beforeDir="false" afterPath="$PROJECT_DIR$/book/service/search/api/internal/middleware/examplemiddleware.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/service/search/cmd/api/internal/svc/servicecontext.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/service/search/cmd/api/internal/types/types.go" beforeDir="false" afterPath="$PROJECT_DIR$/book/service/search/api/internal/types/types.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/service/search/cmd/api/search.api" beforeDir="false" afterPath="$PROJECT_DIR$/book/service/search/api/search.api" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/service/search/cmd/api/search.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/service/user/api/etc/greet-api.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/book/service/user/api/etc/greet-api.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/service/user/api/greet.go" beforeDir="false" afterPath="$PROJECT_DIR$/book/service/user/api/greet.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book/service/user/api/internal/logic/loginlogic.go" beforeDir="false" afterPath="$PROJECT_DIR$/book/service/user/api/internal/logic/loginlogic.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/service/user/rpc/user.proto" beforeDir="false" afterPath="$PROJECT_DIR$/book/service/user/rpc/user.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../bluebell" beforeDir="false" afterPath="$PROJECT_DIR$/../../bluebell" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,28 +39,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultApiTemplateProperty": "Api File",
-    "DefaultGoTemplateProperty": "Go File",
-    "DefaultProtoTemplateProperty": "Proto File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "configurable..is.expanded": "false",
-    "configurable.GoLibrariesConfigurable.is.expanded": "true",
-    "go.import.settings.migrated": "true",
-    "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/Users/edy/go/src/goworkspace/Microservice/go-zero-demo",
-    "settings.editor.selected.configurable": "go.vgo"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultApiTemplateProperty&quot;: &quot;Api File&quot;,
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;DefaultProtoTemplateProperty&quot;: &quot;Proto File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;configurable..is.expanded&quot;: &quot;false&quot;,
+    &quot;configurable.GoLibrariesConfigurable.is.expanded&quot;: &quot;true&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/edy/go/src/goworkspace/Microservice/go-zero-demo&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;go.vgo&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/book/service/search" />

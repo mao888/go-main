@@ -1,6 +1,7 @@
 package logic
 
 import (
+	"book/common/errorx"
 	"book/service/user/api/internal/svc"
 	"book/service/user/api/internal/types"
 	"book/service/user/model"
@@ -37,13 +38,13 @@ func (l *LoginLogic) Login(req *types.LoginReq) (resp *types.LoginReply, err err
 	switch err {
 	case nil:
 	case model.ErrNotFound:
-		return nil, errors.New("用户名不存在")
+		return nil, errorx.NewDefaultError("用户名不存在")
 	default:
 		return nil, err
 	}
 
 	if userInfo.Password != req.Password {
-		return nil, errors.New("用户密码不正确")
+		return nil, errorx.NewDefaultError("用户密码不正确")
 	}
 
 	// ---start---
