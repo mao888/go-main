@@ -13,7 +13,7 @@ func failOnError(err error, msg string) {
 
 // 1. 尝试连接RabbitMQ，建立连接
 // 该连接抽象了套接字连接，并为我们处理协议版本协商和认证等。
-conn, err := amqp.Dial("amqp://guest:guest@localhost:5672/")
+conn, err := amqp.Dial("amqp://guest:guest@47.93.20.204:5672/")
 failOnError(err, "Failed to connect to RabbitMQ")
 defer conn.Close()
 
