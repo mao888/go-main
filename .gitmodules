@@ -4,3 +4,6 @@
 [submodule "bluebell"]
 	path = bluebell
 	url = git@github.com:mao888/bluebell.git
+[submodule "argo"]
+	path = argo
+	url = https://github.com/mao888/argo.git
