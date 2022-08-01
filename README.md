@@ -14,3 +14,8 @@ Belong to my GO language learning space
 5. `git submodule sync`
 6. `git submodule update`
 
+附：[Git - git-submodule Documentation](https://git-scm.com/docs/git-submodule/en)
+
+常见问题：
+    - [No submodule mapping found in .gitmodules for path ......](https://blog.csdn.net/SaberJYang/article/details/124431029)
+
