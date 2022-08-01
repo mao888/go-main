@@ -19,3 +19,24 @@ Belong to my GO language learning space
 常见问题：
     - [No submodule mapping found in .gitmodules for path ......](https://blog.csdn.net/SaberJYang/article/details/124431029)
 
+## submodule repositories
+
+- [ ] [**submodule** "**go_web/GoWeb_ToDoList**"]
+  - path = go_web/GoWeb_ToDoList 
+  - url = [git@github.com:mao888/bluebell.git](git@github.com:mao888/bluebell.git)
+- [ ] [**submodule** "**bluebell**"]
+  - path = bluebell 
+  - url = [git@github.com:mao888/bluebell.git](git@github.com:mao888/bluebell.git)
+- [ ] [**submodule** "**argo**"]
+  - path = argo 
+  - url = [ git@github.com:mao888/argo.git]( git@github.com:mao888/argo.git)
+
+- [ ] [**submodule** "**uber_go_guide_cn**"]
+  - path = uber_go_guide_cn 
+  - url = https://github.com/mao888/uber_go_guide_cn.git
+- [ ] [**submodule** "**GoWeb_ToDoList**"]
+  - path = GoWeb_ToDoList 
+  - url = [git@github.com:mao888/GoWeb_ToDoList.git](git@github.com:mao888/GoWeb_ToDoList.git)
+- [ ] [**submodule** **"Microservice"**]
+  - path = Microservice 
+  - url = [git@github.com:mao888/Microservice.git](git@github.com:mao888/Microservice.git)
