@@ -13,3 +13,6 @@
 [submodule "GoWeb_ToDoList"]
 	path = GoWeb_ToDoList
 	url = git@github.com:mao888/GoWeb_ToDoList.git
+[submodule "Microservice"]
+	path = Microservice
+	url = git@github.com:mao888/Microservice.git
