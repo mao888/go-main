@@ -7,3 +7,6 @@
 [submodule "argo"]
 	path = argo
 	url = https://github.com/mao888/argo.git
+[submodule "uber_go_guide_cn"]
+	path = uber_go_guide_cn
+	url = https://github.com/mao888/uber_go_guide_cn.git
