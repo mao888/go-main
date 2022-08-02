@@ -337,3 +337,64 @@ ch5 = ch4          // 变量赋值时将ch4转为单向通道
 ![img](https://www.liwenzhou.com/images/Go/concurrence/channel.png)
 
 **注意：**对已经关闭的通道再执行 close 也会引发 panic。
+
+## 通道误用示例
+
+接下来，我们将展示两个因误用通道导致程序出现 bug 的代码片段，希望能够加深读者对通道操作的印象。
+
+#### 示例1
+
+各位读者可以查看以下示例代码，尝试找出其中存在的问题。
+
+```go
+// demo1 通道误用导致的bug
+func demo1() {
+	wg := sync.WaitGroup{}
+
+	ch := make(chan int, 10)
+	for i := 0; i < 10; i++ {
+		ch <- i
+	}
+	close(ch)
+
+	wg.Add(3)
+	for j := 0; j < 3; j++ {
+		go func() {
+			for {
+				task := <-ch
+				// 这里假设对接收的数据执行某些操作
+				fmt.Println(task)
+			}
+			wg.Done()
+		}()
+	}
+	wg.Wait()
+}
+```
+
+将上述代码编译执行后，匿名函数所在的 goroutine 并不会按照预期在通道被关闭后退出。因为`task := <- ch`的接收操作在通道被关闭后会一直接收到零值，而不会退出。此处的接收操作应该使用`task, ok := <- ch`，通过判断布尔值`ok`为假时退出；或者使用select 来处理通道。
+
+#### 示例2
+
+各位读者阅读下方代码片段，尝试找出其中存在的问题。
+
+```go
+// demo2 通道误用导致的bug
+func demo2() {
+	ch := make(chan string)
+	go func() {
+		// 这里假设执行一些耗时的操作
+		time.Sleep(3 * time.Second)
+		ch <- "job result"
+	}()
+
+	select {
+	case result := <-ch:
+		fmt.Println(result)
+	case <-time.After(time.Second): // 较小的超时时间
+		return
+	}
+}
+```
+
+上述代码片段可能导致 goroutine 泄露（goroutine 并未按预期退出并销毁）。由于 select 命中了超时逻辑，导致通道没有消费者（无接收操作），而其定义的通道为无缓冲通道，因此 goroutine 中的`ch <- "job result"`操作会一直阻塞，最终导致 goroutine 泄露。
