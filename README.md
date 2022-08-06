@@ -50,27 +50,38 @@ Belong to my GO language learning space
 
 ## submodule repositories
 
-- [ ] [**submodule** "**go_web/GoWeb_ToDoList**"]
+- [x] [**submodule** "**go_web/GoWeb_ToDoList**"]
   - path = go_web/GoWeb_ToDoList 
   - ssh = [git@github.com:mao888/bluebell.git](git@github.com:mao888/bluebell.git)
   - url = [https://github.com/mao888/GoWeb_ToDoList.git](https://github.com/mao888/GoWeb_ToDoList.git)
-- [ ] [**submodule** "**bluebell**"]
+  - description: go web course source code.
+- [x] [**submodule** "**bluebell**"]
   - path = bluebell 
   - ssh = [git@github.com:mao888/bluebell.git](git@github.com:mao888/bluebell.git)
   - url = [https://github.com/mao888/bluebell.git](https://github.com/mao888/bluebell.git)
-- [ ] [**submodule** "**argo**"]
+  - description: 基于vue+go+gin+mysql+redis的博客论坛web项目
+- [x] [**submodule** "**argo**"]
   - path = argo 
   - ssh = [ git@github.com:mao888/argo.git]( git@github.com:mao888/argo.git)
   - url = [ https://github.com/mao888/argo.git]( https://github.com/mao888/argo.git)
-- [ ] [**submodule** "**uber_go_guide_cn**"]
+  - description: 使用go语言实现数据结构与算法，涵盖字符串、数组、链表、队列、栈、树、图等数据结构。在实现算法的基础上，进行go语言实战。此外也包含经典算法在go实战项目中的应用，以及开源项目算法方面源码分析。
+- [x] [**submodule** "**uber_go_guide_cn**"]
   - path = uber_go_guide_cn 
   - ssh = [git@github.com:mao888/uber_go_guide_cn.git](git@github.com:mao888/uber_go_guide_cn.git)
   - url = [https://github.com/mao888/uber_go_guide_cn.git](https://github.com/mao888/uber_go_guide_cn.git)
-- [ ] [**submodule** "**GoWeb_ToDoList**"]
+  - description: Uber Go 语言编码规范中文版. The Uber Go Style Guide .
+- [x] [**submodule** "**GoWeb_ToDoList**"]
   - path = GoWeb_ToDoList 
   - ssh = [git@github.com:mao888/GoWeb_ToDoList.git](git@github.com:mao888/GoWeb_ToDoList.git)
   - url = [https://github.com/mao888/GoWeb_ToDoList.git](https://github.com/mao888/GoWeb_ToDoList.git)
-- [ ] [**submodule** **"Microservice"**]
+  - description: A ToDoList Demo based on Vue+Gin+Gorm+mysql
+- [x] [**submodule** **"Microservice"**]
   - path = Microservice 
   - ssh = [git@github.com:mao888/Microservice.git](git@github.com:mao888/Microservice.git)
   - url = [https://github.com/mao888/Microservice.git](https://github.com/mao888/Microservice.git)
+  - description: go-zero 是一个集成了各种工程实践的 web 和 rpc 框架
+- [x] [submodule "go-utils"]
+  - path = go-utils 
+  - ssh = [git@github.com:mao888/go-utils.git](git@github.com:mao888/go-utils.git)
+  - url = [git@github.com:mao888/go-utils.git](git@github.com:mao888/go-utils.git)
+  - description: 基于日常学习及项目需要所积累的go语言常用工具库
