@@ -16,3 +16,6 @@
 [submodule "Microservice"]
 	path = Microservice
 	url = git@github.com:mao888/Microservice.git
+[submodule "go-utils"]
+	path = go-utils
+	url = git@github.com:mao888/go-utils.git
