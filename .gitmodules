@@ -19,3 +19,9 @@
 [submodule "go-utils"]
 	path = go-utils
 	url = git@github.com:mao888/go-utils.git
+[submodule "golang-guide"]
+	path = golang-guide
+	url = git@github.com:mao888/golang-guide.git
+[submodule "mao888"]
+	path = mao888
+	url = https://github.com/mao888/mao888

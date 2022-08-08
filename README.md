@@ -50,6 +50,12 @@ Belong to my GO language learning space
 
 ## submodule repositories
 
+- [x] [submodule "golang-guide"]
+  - path = golang-guide 
+  - ssh = [git@github.com:mao888/golang-guide.git](git@github.com:mao888/golang-guide.git)
+  - url = [https://github.com/mao888/golang-guide.git](https://github.com/mao888/golang-guide.git)
+  - description = 「Golang学习+面试指南」一份涵盖大部分 Golang程序员所需要掌握的核心知识。准备 Golang面试，首选 GolangGuide！
+
 - [x] [**submodule** "**go_web/GoWeb_ToDoList**"]
   - path = go_web/GoWeb_ToDoList 
   - ssh = [git@github.com:mao888/bluebell.git](git@github.com:mao888/bluebell.git)
@@ -83,5 +89,10 @@ Belong to my GO language learning space
 - [x] [submodule "go-utils"]
   - path = go-utils 
   - ssh = [git@github.com:mao888/go-utils.git](git@github.com:mao888/go-utils.git)
-  - url = [git@github.com:mao888/go-utils.git](git@github.com:mao888/go-utils.git)
+  - url = [https://github.com/mao888/go-utils.git](https://github.com/mao888/go-utils.git)
   - description: 基于日常学习及项目需要所积累的go语言常用工具库
+- [x] [submodule "mao888"]
+  - path = mao888 
+  - ssh = [git@github.com:mao888/mao888.git](git@github.com:mao888/mao888.git)
+  - url = [https://github.com/mao888/mao888](https://github.com/mao888/mao888)
+  - description: my github public profile
